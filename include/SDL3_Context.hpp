@@ -7,6 +7,7 @@
 class Term_SDL{
     public:
         SDL_Window *window;
+        SDL_Renderer *render;
         SDL_Event *event;
         Term_SDL();
         ~Term_SDL();
